@@ -4,3 +4,8 @@ chocolatey feature enable -n allowGlobalConfirmation
 
 choco install vagrant
 choco install virtualbox
+choco install git.install
+
+cd C:\\Users\vagrant\Desktop
+git clone https://github.com/jtmg/WindowsBox
+cd .\WindowsBox\vagrant up
