@@ -6,6 +6,6 @@ choco install vagrant
 choco install virtualbox
 choco install git.install
 
-cd C:\\Users\vagrant\Desktop
+cd ~\Documents
 git clone https://github.com/jtmg/WindowsBox
-cd .\WindowsBox\vagrant up
+cd ~\Documents\WindowsBox\vagrant up
