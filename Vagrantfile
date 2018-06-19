@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "http://213.190.205.248:8080/Vboxes/Windows_trial/.%5Cwindows_10_virtualbox.box"
+  config.vm.box = "http://213.190.205.248:8080/Vboxes/Windows_trial/windows_10_virtualbox.box"
   config.vm.define "windows_10_virtualbox"
   config.vm.communicator = "winrm"
 

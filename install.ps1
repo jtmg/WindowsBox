@@ -5,7 +5,9 @@ chocolatey feature enable -n allowGlobalConfirmation
 choco install vagrant
 choco install virtualbox
 choco install git.install
-refreshenv
+new-item -path alias:git -value 'C:\Program Files\Git\bin\git.exe'
+New-Item -Path alias:vagrant -value 'C:\HashiCorp\Vagrant\bin\vagrant.exe'
+
 cd ~\Documents
 git clone https://github.com/jtmg/WindowsBox
-cd ~\Documents\WindowsBox\powershell vagrant up
+cd ~\Documents\WindowsBox\vagrant up
