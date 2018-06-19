@@ -1,2 +1,2 @@
 # WindowsBox
-just run the file install.ps1 to install all dependencies to create the developer environment
+Este repositório contém uma definição de uma máquina virtual que irá dar suporte a uma equipa de developers
